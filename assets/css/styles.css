@@ -152,6 +152,11 @@ body {
   margin-right: 20px;
 }
 
+.description-image {
+  float:left;
+  width:350px;
+}
+
 /* Description content media query */
 @media only screen and (max-width: 767px) {
   /* override default class styling for positioning/padding */
@@ -169,9 +174,7 @@ body {
 
 /* ----IMAGE NAV START---- */
 #imageNav-area {
-  width: 100%;
-
-  /* Box-model */
+ /* Box-model */
   padding: 30px 30px 43px;
 
   /* Positioning */

@@ -52,35 +52,43 @@
         </div><!-- /.container-fluid -->
       </nav>
       <!-- End of navbar -->
-      
-      <div class="container">
-        <h1>Summary: Latitude vs. X</h1>
-        <hr class="my-4">
-        <img src="visualizations/CityLatitudeVsMaxTemp.png">
-        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this, we used OpenWeatherMap API to pull data on over 500 cities</p>
-        <p>Once the dataset was ready, we used Matplotlib to plot different aspects of the weather and latitide. Some factors that we included in our analysis were temperature, cloudiness, wind speed, and humidity.</p>
-        <p>This site provides the source data as well as the visualizations that were created as part of this analysis.</p>
-      </div>
 
       <div class="container">
-        <h2>Visualizations</h2>
-        <hr class="my-4">
-        <div>
+        <div class="row">
+          <div class="col-sm-8 description-content">
+            <h1 class="description-header">Summary: Latitude vs. X</h1>
+            <hr class="my-4">
+            <img src="visualizations/CityLatitudeVsMaxTemp.png" class="description-image" style="float:left">
+            <p class="description-text">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this, we used OpenWeatherMap API to pull data on over 500 cities</p>
+            <p class="description-text">Once the dataset was ready, we used Matplotlib to plot different aspects of the weather and latitide. Some factors that we included in our analysis were temperature, cloudiness, wind speed, and humidity.</p>
+            <p class="description-text">This site provides the source data as well as the visualizations that were created as part of this analysis.</p>
+          </div>
+
+          <div class="col-sm-4" id="imageNav-area">
+            <h2 class="imageNav-header">Visualizations</h2>
+            <hr class="my-4">
             <div>
-                <img src="visualizations/CityLatitudeVsMaxTemp.png">
+              <div class="row">
+                <div class="col-md-6">
+                    <a href="temp.html"><img src="visualizations/CityLatitudeVsMaxTemp.png" class="imageNav-photo"></a>
+                </div>
+                <div class="col-md-6">
+                    <a href="wind.html"><img src="visualizations/CityLatitudeVsWindSpeed.png" class="imageNav-photo"></a>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                    <a href="humidity.html"><img src="visualizations/CityLatitudeVsHumidity.png" class="imageNav-photo"></a>
+                </div>
+                <div class="col-md-6">
+                    <a href="cloudiness.html"><img src="visualizations/CityLatitudeVsCloudiness.png" class="imageNav-photo"></a>
+                </div>
+              </div>
             </div>
-            <div>
-                <img src="visualizations/CityLatitudeVsWindSpeed.png">
-            </div>
-            <div>
-                <img src="visualizations/CityLatitudeVsHumidity.png">
-            </div>
-            <div>
-                <img src="visualizations/CityLatitudeVsCloudiness.png">
-            </div>
+          </div>
         </div>
       </div>
-
 <!-- jQuery CDN -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
