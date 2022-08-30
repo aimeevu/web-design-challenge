@@ -59,7 +59,40 @@
 
     <!-- Start of container -->
     <div class="container">
-      <h1>Max Temperature</h1>
+      <div class="row">
+        <div class="col-md-8 description-content">
+          <h1 class="description-header">Max Temperature</h1>
+          <hr class="my-4">
+          <img src="visualizations/CityLatitudeVsMaxTemp.png" class="description-image" id="images" style="width: 100%;">
+          <p class="description-text">The plot above displays the distribution of max temperatures across the latitude values of the cities. The closer the points are to the center (0), the higher the max temperature. Conversely, the farther the points are from the center, the lower the max temperature.</p>
+        </div>
+
+        <div class="col-md-4">
+          <div id="imageNav-area">
+            <h2 class="imageNav-header">Visualizations</h2>
+            <hr class="my-4">
+            <div>
+              <div class="row">
+                <div class="col-md-6">
+                    <a href="temp.html"><img src="visualizations/CityLatitudeVsMaxTemp.png" class="imageNav-photo active"></a>
+                </div>
+                <div class="col-md-6">
+                    <a href="wind.html"><img src="visualizations/CityLatitudeVsWindSpeed.png" class="imageNav-photo"></a>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                    <a href="humidity.html"><img src="visualizations/CityLatitudeVsHumidity.png" class="imageNav-photo"></a>
+                </div>
+                <div class="col-md-6">
+                    <a href="cloudiness.html"><img src="visualizations/CityLatitudeVsCloudiness.png" class="imageNav-photo"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     
     <!-- End of container -->

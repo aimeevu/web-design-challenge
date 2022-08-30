@@ -153,7 +153,6 @@ body {
 }
 
 .description-image {
-  float:left;
   width:350px;
 }
 
@@ -218,6 +217,12 @@ body {
 
   /* Typography */
   text-align: center;
+
+  /* Centering */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* ----IMAGE NAV END---- */
